@@ -2,6 +2,7 @@ package ine;
 import java.util.Scanner;
 public class Ine {
     public void determinarSiIne(Scanner teclado){
+        String resultado;
         int añoAct;int añoNac;int años;
 
         System.out.println("Proporciona tu año actual");
@@ -13,9 +14,11 @@ public class Ine {
         años = añoAct - añoNac;
 
         if (años >= 18) {
-            System.out.println("Usted puede tramitar su INE");
+            resultado = "Usted puede tramitar su INE";
         } else {
-            System.out.println("Usted no puede tramitar su INE");
+            resultado = "Usted no puede tramitar su INE";
         }
+        System.out.println(resultado);
+
     }
 }
