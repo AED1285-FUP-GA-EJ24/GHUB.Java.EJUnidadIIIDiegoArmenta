@@ -1,19 +1,21 @@
-package difedades;
+package hermanos;
 import java.util.Scanner;
-public void difhermanos(Scanner teclado){
+
+public class brodiff {
+    public void brodiffe(Scanner teclado){
 
     System.out.print("Ingresa el nombre de hermano: ");
-    String broname1 = scanner.nextLine();
+    String broname1 = teclado.nextLine();
 
     System.out.print("Ingresa la edad de " + broname1 + ": ");
-    int broage1 = scanner.nextInt();
+    int broage1 = teclado.nextInt();
 
     System.out.print("Ingresa el nombre de hermano: ");
-    scanner.nextLine();
-    String broname2 = scanner.nextLine();
+    teclado.nextLine();
+    String broname2 = teclado.nextLine();
 
     System.out.print("Ingresa la edad de " + broname2 + ": " );
-    int broage2 = scanner.nextInt();
+    int broage2 = teclado.nextInt();
 
     if (broage1 > broage2) {
         System.out.println(broname1 + " es mayor que " + broname2 + " por " + (broage1 - broage2) + " años.");
@@ -23,5 +25,6 @@ public void difhermanos(Scanner teclado){
         System.out.println(broname1 + " y " + broname2 + " tienen la misma edad.");
     }
 
-    scanner.close();
+    teclado.close();
+    }
 }
