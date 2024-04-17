@@ -44,9 +44,9 @@ public class romano {
                 roma = "X";
                 break;
             default:
-                roma = "Número inválido";
+                roma = "Numero invalido";
         }
-        System.out.println("El número romano es: " + roma);
+        System.out.println("El numero romano es: " + roma);
 
         teclado.close();
     }
